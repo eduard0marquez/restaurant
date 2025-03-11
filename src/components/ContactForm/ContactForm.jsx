@@ -16,7 +16,7 @@ const validationSchema = Yup.object({
 
 
 function ContactForm() {
-    const handleSubmit = (values, { reserForm }) => {
+    const handleSubmit = (values, {resetForm}) => {
         //Enviar email con emailjs
         
         const serviceId = 'service_qm6xgcq';
@@ -46,7 +46,7 @@ function ContactForm() {
                         timer: 3000,
                         timerProgressBar: true,
                     });
-                    reserForm()
+                    resetForm()
                 },
                 (error)=>{
                     Swal.fire({
