@@ -7,7 +7,7 @@ function ContactInfo() {
                 <div className='row'>
                     <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-0'>
                         <div className='d-flex flex-column align-items-center'>
-                            <h2 className='fs-1 mb-3 text-uppercase fw-bold'>Dónde Encontrarnos</h2>
+                            <h2 className='fx-1 mb-3 text-uppercase fw-bold'>Dónde Encontrarnos</h2>
                             <p className='mb-5'>47 Baker Street, London</p>
                             <h3>Horarios</h3>
                             <p className='m-0'>Lun - Vie: 09:00 - 17:00</p>
